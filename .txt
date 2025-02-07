@@ -1,0 +1,48 @@
+PPP153134364
+
+   // Fetch receiver email from parcels table 
+    $to = $sender_email;
+    $subject = "Account Funding Notification";
+    $message = "
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            .container { padding: 20px; border: 1px solid #ddd; background-color: #f4f4f4; width: 80%; margin: auto; }
+            .header { background-color: #00274C; color: white; padding: 10px; text-align: center; }
+            .content { padding: 20px; background-color: white; }
+            .footer { text-align: center; padding: 10px; background-color: #f4f4f4; font-size: 12px; color: #555; }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='header'>
+                <h2>PromptParcelPros</h2>
+                <p>Parcel Staus Update</p>
+            </div>
+            <div class='content'>
+                <p>Hello {$sender_name},</p>
+   
+                <h3>We are pleased to inform you that your shipment is in progress. we would notify you when your parcel arrive Shipment seized.</h3>
+                <h3>Tracking Information</h3>
+                <p>
+                    Tracking Number: {$tracking_no}<br>
+                    Location: {$location}<br>
+                    Comments: {$comments}
+                </p>
+                <p>We hope this email meets your approval. Please do not hesitate to get in touch via email if we can be of any further assistance.</p>
+               <p>Yours sincerely</p>
+            </div>
+            <div class='footer'>
+                
+                <p>&copy; 2024 PromptParcelPros. All rights reserved.</p>
+            </div>
+        </div>
+    </body>
+    </html>";
+
+    $headers = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=utf-8\r\n";
+    $headers .= "From: Financehomebell <noreply@financehomebell.com>\r\n";
+
+    mail($to, $subject, $message, $headers);

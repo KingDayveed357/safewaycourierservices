@@ -1,0 +1,28 @@
+[27-Jul-2024 21:31:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fewgprhw_promptparcelpros'@'localhost' (using password: YES) in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php:22
+Stack trace:
+#0 /home/bulledge/public_html/safewaycourierservices.com/include/_db.php(22): mysqli->__construct()
+#1 /home/bulledge/public_html/safewaycourierservices.com/include/head.php(1): require('/home/bulledge/...')
+#2 /home/bulledge/public_html/safewaycourierservices.com/tracking/index.php(1): include_once('/home/bulledge/...')
+#3 {main}
+  thrown in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php on line 22
+[27-Jul-2024 21:31:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fewgprhw_promptparcelpros'@'localhost' (using password: YES) in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php:22
+Stack trace:
+#0 /home/bulledge/public_html/safewaycourierservices.com/include/_db.php(22): mysqli->__construct()
+#1 /home/bulledge/public_html/safewaycourierservices.com/include/head.php(1): require('/home/bulledge/...')
+#2 /home/bulledge/public_html/safewaycourierservices.com/tracking/index.php(1): include_once('/home/bulledge/...')
+#3 {main}
+  thrown in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php on line 22
+[27-Jul-2024 21:33:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fewgprhw_promptparcelpros'@'localhost' (using password: YES) in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php:22
+Stack trace:
+#0 /home/bulledge/public_html/safewaycourierservices.com/include/_db.php(22): mysqli->__construct()
+#1 /home/bulledge/public_html/safewaycourierservices.com/include/head.php(1): require('/home/bulledge/...')
+#2 /home/bulledge/public_html/safewaycourierservices.com/tracking/index.php(1): include_once('/home/bulledge/...')
+#3 {main}
+  thrown in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php on line 22
+[27-Jul-2024 21:39:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fewgprhw_promptparcelpros'@'localhost' (using password: YES) in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php:22
+Stack trace:
+#0 /home/bulledge/public_html/safewaycourierservices.com/include/_db.php(22): mysqli->__construct()
+#1 /home/bulledge/public_html/safewaycourierservices.com/include/head.php(1): require('/home/bulledge/...')
+#2 /home/bulledge/public_html/safewaycourierservices.com/tracking/index.php(1): include_once('/home/bulledge/...')
+#3 {main}
+  thrown in /home/bulledge/public_html/safewaycourierservices.com/include/_db.php on line 22
